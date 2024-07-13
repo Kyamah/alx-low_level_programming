@@ -1,9 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * _puts - Prints a string to stdout followed by a new line
+ * @str: The string to be printed
  *
- * Return: Always 0 (Success)
+ * Description: This function takes a string as input and prints it to
+ * standard output, followed by a new line character.
  */
 void _puts(char *str)
 {
